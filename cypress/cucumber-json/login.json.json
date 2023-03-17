@@ -1,0 +1,162 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login;realizar-login",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Realizar login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 220000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "quando digito credenciais \"validas\"",
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "a mensagem \"Seu gerenciador digital de contatos\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;senha-inválida",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Senha inválida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "quando digito credenciais \"com senha inválida\"",
+            "result": {
+              "status": "passed",
+              "duration": 752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "a mensagem \"Email e/ou senha incorreto\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;email-inválido",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Email inválido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "quando digito credenciais \"com email inválido\"",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "a mensagem \"Email e/ou senha incorreto\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

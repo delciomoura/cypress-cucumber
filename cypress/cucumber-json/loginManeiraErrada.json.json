@@ -1,0 +1,192 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Login",
+    "line": 1,
+    "id": "login",
+    "tags": [],
+    "uri": "loginManeiraErrada.feature",
+    "elements": [
+      {
+        "id": "login;realizar-login-com-credenciais-validas",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Realizar login com credenciais validas",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "no campo email digito um \"email valido\"",
+            "result": {
+              "status": "passed",
+              "duration": 490000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "no campo senha digito uma \"senha valida\"",
+            "result": {
+              "status": "passed",
+              "duration": 301000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "a mensagem \"Seu gerenciador digital de contatos\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 488000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;realizar-login-com-credenciais-com-email-inválido",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Realizar login com credenciais com email inválido",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 311000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "no campo email digito um \"email inválido\"",
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "no campo senha digito uma \"senha valida\"",
+            "result": {
+              "status": "passed",
+              "duration": 338000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "a mensagem \"Email e/ou senha incorreto\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "login;realizar-login-com-credenciais-com-senha-inválida",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Realizar login com credenciais com senha inválida",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 18,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "no campo email digito um \"email valido\"",
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "no campo senha digito uma \"senha inválida\"",
+            "result": {
+              "status": "passed",
+              "duration": 373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "a mensagem \"Email e/ou senha incorreto\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

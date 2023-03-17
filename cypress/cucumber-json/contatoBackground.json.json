@@ -1,0 +1,252 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Contato",
+    "line": 1,
+    "id": "contato",
+    "tags": [],
+    "uri": "contatoBackground.feature",
+    "elements": [
+      {
+        "id": "contato;cadastrar-um-contato",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Cadastrar um contato",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "quando digito credenciais \"validas\"",
+            "result": {
+              "status": "passed",
+              "duration": 697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "a mensagem \"Seu gerenciador digital de contatos\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "clicar no botão adicionar contato",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "preencho os dados obrigatórios",
+            "result": {
+              "status": "passed",
+              "duration": 1005000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "clico no botão Cadastrar",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "o contato deve ser cadastrado com sucesso",
+            "result": {
+              "status": "passed",
+              "duration": 367000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "contato;buscar-por-um-contato-cadastrado",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Buscar por um contato cadastrado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "quando digito credenciais \"validas\"",
+            "result": {
+              "status": "passed",
+              "duration": 676000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "a mensagem \"Seu gerenciador digital de contatos\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "inserir um valor no campo de busca",
+            "result": {
+              "status": "passed",
+              "duration": 312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "clico no botão buscar",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "será exibido apenas o contato inserido na busca",
+            "result": {
+              "status": "passed",
+              "duration": 207000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "contato;excluir-um-contato-cadastrado",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Excluir um contato cadastrado",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "que estou na página de login",
+            "result": {
+              "status": "passed",
+              "duration": 180000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "quando digito credenciais \"validas\"",
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "clico no botão entrar",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "a mensagem \"Seu gerenciador digital de contatos\" deve ser exibida",
+            "result": {
+              "status": "passed",
+              "duration": 159000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "clicar no botão apagar do contato escolhido",
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "o contato deve ser excluído",
+            "result": {
+              "status": "passed",
+              "duration": 208000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
