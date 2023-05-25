@@ -25,5 +25,5 @@ npm -v && node -v
 
 - Para abrir a interface gráfica do Cypress e escolher quais testes executar, digite o seguinte no terminal:
 ```
-npm test
+npx cypress open
 ```
