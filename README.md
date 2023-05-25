@@ -27,8 +27,3 @@ npm -v && node -v
 ```
 npm test
 ```
-
-- Para executar todos os testes no modo headless, digite o seguinte no terminal:
-```
-npm run test:headless
-```
